@@ -27,7 +27,8 @@ spec:
     kind: Deployment
     jsonPointers:
     - /data/
-    
-  - kind: Secret
+
+  - group: apps   
+    kind: Secret
     jsonPointers:
     - /data/my-password
